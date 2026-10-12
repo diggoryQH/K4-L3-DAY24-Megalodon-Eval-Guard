@@ -117,6 +117,9 @@ def evaluate_ragas(questions: list[str], answers: list[str],
                     "context_precision": agg_cp,
                     "context_recall": agg_cr,
                     "per_question": per_question,
+                    "metadata": {
+                        "evaluator_models": ["gpt-4o-mini", "text-embedding-ada-002"],
+                    },
                 }
         except Exception as e:  # noqa: BLE001
             print(f"  ⚠️  RAGAS evaluation exception: {e}")
@@ -174,6 +177,9 @@ def evaluate_ragas(questions: list[str], answers: list[str],
         "context_precision": round(avg_cp, 4),
         "context_recall": round(avg_cr, 4),
         "per_question": per_question,
+        "metadata": {
+            "evaluator_models": ["BAAI/bge-m3"],
+        },
     }
 
 
