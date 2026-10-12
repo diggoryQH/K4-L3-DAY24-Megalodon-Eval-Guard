@@ -2,7 +2,7 @@
 
 Tên nhóm: Group 1 - K4 Track 3B
 
-Repo chung: https://github.com/diggoryQH/K4-Track-3B-Day24-Eval-Guard.git
+Repo chung: https://github.com/diggoryQH/K4-L3-DAY24-Megalodon-Eval-Guard
 
 Trưởng nhóm/người nộp: Ngụy Quang Hùng - 2A202602998
 
